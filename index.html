@@ -2,18 +2,37 @@
     <head>
         <link rel="stylesheet" type="text/css"
         href="futurestyle.css">
-        <script src="p5.min.js"></script></script>
+        
+        <center>
+        <h1>
+        Welcome to EyeScan 
+        </h1>
+        </center>
+        
+        <script src="p5.min.js"></script>
+    
     </head>
+    
     <body>
-        <a href="second.html"><img style="height:300px"
-        src="screenshot1.png"></a>
+        <a href="second.html"><img aline="left" style="height:100px"
+        src="Lens.png"></a>
+        
         <script>
-            function setup(){
-                canvas = createCanvas(500,500);
+            
+            function setup () 
+            {
+            canvas = createCanvas(500,500);
             }
-            function draw (){
-                rect (mouseX, mouseY, 10, 10)
+            function draw () 
+            {
+                var i=0; i<10; i++
+                {
+                rect(mouseX + random(-20,20), mouseY + random(-20,20), 10, 10);
+                }
             }
+            
         </script>
+        
     </body>
+    
 </html>
