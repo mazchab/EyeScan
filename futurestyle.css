@@ -1,11 +1,35 @@
-h1 {
+h1 
+{
     background-color: black
     text-align: center;
     color: black;
     font-family: Helvetica;
     font-size: 32px;
 }
-p1 {
+
+h2 
+{
+    background-color: black
+    text-align: right;
+    color: black;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+p1 
+{
     text-align: left;
     color: darkgray
     background-color:lightgray;
+}
+
+button 
+{
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
