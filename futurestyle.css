@@ -1,6 +1,11 @@
-body {
-    background-color:aquamarine;
+h1 {
+    background-color: black
+    text-align: center;
+    color: black;
+    font-family: Helvetica;
+    font-size: 32px;
 }
-div {
-    background-color:darkgray;
-}
+p1 {
+    text-align: left;
+    color: darkgray
+    background-color:lightgray;
