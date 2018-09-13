@@ -33,3 +33,19 @@ button
     cursor: pointer;
 }
 
+title
+{
+    text-align: center
+    color:black
+    font-family:Helvetiva
+    font-size:24px
+    position:center
+}
+header 
+        {
+        padding: 1em;
+        color:black;
+        background-color:black;
+        clear: left;
+        text-align: center;
+        }
