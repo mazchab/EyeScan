@@ -1,7 +1,24 @@
+background
+{
+    margin:0;
+}
+
+div.header
+{
+    position:relative;
+    display:block;
+    word-spacing:10px;
+    align-items:flex-start
+    font-family:Helvetica;
+    color:white;
+    word-spacing:10px;
+    background-color:black;
+    height:75px;
+    
+}
 h1 
 {
     position:relative;
-        top:40px;
     background-color: white;
     padding:0px;
     text-align:center;
@@ -13,13 +30,14 @@ h1
 h2 
 {
     position:relative;
-    right:-80px;
-    top:-39px;
+    right:0;
+    top:-39;
+    width:700px;
+    text-indent:6em;
     padding:0;
     vertical-align:middle;
-    text-align:left;
     word-spacing:10px;
-    color: white;
+    color:white;
     font-family: Helvetica;
     font-size: 16px;
     
@@ -34,15 +52,16 @@ h3
     color:white;
 }
 
-h4
+p4
 {
     position:relative;
-    right:10px;
-    top:-80px;
+    right:20px;
+    top:-69;
+    width:700px;
     padding:0;
     vertical-align:middle;
     text-align:right;
-    word-spacing:0px;
+    word-spacing:15px;
     color: white;
     font-family: Helvetica;
     font-size: 16px;
@@ -64,14 +83,7 @@ div1
     padding:20px
 }
 
-header
-{
-    display:block;
-    align-items:center;
-    background-color:black;
-    vertical-align:center;
-    height:75px;
-}
+
 
 body
 {
@@ -107,7 +119,7 @@ html, body, .sonar-wrapper {
 /* Prevent scrollbars to appear when waves go out of bound */
 .sonar-wrapper {
   position: relative;
-    top:-80px;
+    top:-60px;
     left:0;
   z-index: 0;
   overflow:;
@@ -143,15 +155,17 @@ html, body, .sonar-wrapper {
   NOTE: add browser prefixes where needed.
 */
 .sonar-wave {
-  animation: sonarWave 2s linear infinite;
+  animation: sonarWave 1s linear infinite;
 }
 
 @keyframes sonarWave {
   from {
-    opacity: 0.4;
+    opacity: 0.6;
   }
   to {
-    transform: scale(2);
+    transform: scale(1.5);
     opacity: 0;
   }
 }
+
+
