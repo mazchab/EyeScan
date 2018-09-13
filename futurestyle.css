@@ -1,10 +1,7 @@
-background
-{
-    background-color:black;
-}
-
 h1 
 {
+    position:relative;
+        top:40px;
     background-color: white;
     padding:0px;
     text-align:center;
@@ -42,12 +39,11 @@ h3
 a1
 {
     position:relative;
-        top:90px;
-        right:center;
+        top:80px;
     align-items:center;
     text-align:center;
     color:white;
-    font-size:16px;
+    font-size:30px;
     font-family:Helvetica;
 }
 
@@ -82,7 +78,7 @@ html, body, .sonar-wrapper {
 /* Prevent scrollbars to appear when waves go out of bound */
 .sonar-wrapper {
   position: relative;
-    top:0;
+    top:-80px;
     left:0;
   z-index: 0;
   overflow:;
