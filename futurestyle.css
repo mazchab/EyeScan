@@ -13,9 +13,9 @@ div.header
     color:white;
     word-spacing:10px;
     background-color:black;
-    height:75px;
-    
+    height:75px;   
 }
+
 h1 
 {
     position:relative;
@@ -24,7 +24,7 @@ h1
     text-align:center;
     color: black;
     font-family: Helvetica;
-    font-size: 70px;
+    font-size: 70px; 
 }
 
 h2 
@@ -38,9 +38,8 @@ h2
     vertical-align:middle;
     word-spacing:10px;
     color:white;
-    font-family: Helvetica;
+    font-family:Helvetica;
     font-size: 16px;
-    
 }
 
 h3
@@ -61,11 +60,12 @@ p4
     padding:0;
     vertical-align:middle;
     text-align:right;
-    word-spacing:15px;
+    word-spacing:10px;
     color: white;
     font-family: Helvetica;
     font-size: 16px;
 }
+
 
 a1
 {
@@ -87,7 +87,7 @@ div1
 
 body
 {
-    display:black;
+    display:block;
     background-color:white;
     margin:0;
 }
