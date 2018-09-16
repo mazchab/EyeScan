@@ -1,21 +1,24 @@
-<html>
-    
-<head>
-<link rel="stylesheet" type="text/css" href="futurestyle.css">
-<script src="p5.js"></script>
-</head>
-    
-    
-<body>
-function setup() {
-    createCanvas(320, 240);
-    background(51);
-    createCapture(VIDEO);
+var canv
+var vid
+var Button
+var Green
+var mousePressed
+var img
+
+function setup()
+{
+    canv = createCanvas(550,480);
+    canv.position(770,100);
+    vid = createCapture(VIDEO);
+    vid.position(120,100);
+
+    Button = createButton("Capture");
+    Button.position(120,590);
+    Button.size(640,50);
+    Button.mouseClicked();
 }
-    
-function draw()
-    {
-    
+
+function mouseClicked()
+{
+  loadImage("FemaleBody.png")
 }
-</body>
-</html>
