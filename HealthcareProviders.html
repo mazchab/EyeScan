@@ -8,28 +8,41 @@
 
 
 
-    <body>
+    <header>
+        <div class="container">
+          <a href="index.html" class="index">
+          <img style="height:70px; position:relative; left:0px"; src="Lens-white.png" alt="logo" class="logo" onmouseover= src="Lens-colored.png" onmouseout=src="Lens-white.png">
 
-        <div class=header>
-            <a href="index.html"><img style="height:55px; position:relative; right:-15px; top:10"; src="Lens-white.png"></a>
+          <nav>
+            <ul>
+              <li><a href="AboutEyeScan.html">About</a><li>
+              <li><a href="MyHealth.html">MyHealth</a><li>
+              <li><a href="HealthcareProviders.html">Healthcare</a><li>
+              <li><a href="Contact.html">Contact</a><li>
+            </ul>
 
-            <h2>
-            <a href="AboutEyeScan.html" style="text-decoration:none; color:white">About</a>
-            <a href="MyHealth.html" style="text-decoration:none; color:white">MyHealth</a>
-            <a href="HealthcareProviders.html" style="text-decoration:none; color:white"> Healthcare</a>
-            <a href="Contact.html" style="text-decoration:none; color:white">Contact</a>
-            </h2>
+            <form action="signin.html">
+            <input type="email" name="email" style="height:25px" placeholder="Email">
+            <input type="password" name="password" style="height:25px" placeholder="Password">
+            <input type="Submit" style="height:25px">
+            <a href="signup.html" style="text-decoration:none; font-weight: bold; color:white">Signup</a>
+            </form>
 
-            <p4>
-                <form action="signin.html">
-                    E-mail:
-                <input type="email" name="email">
-                    Password:
-                <input type="password" name="password">
-                <input type="submit">
-                <a href="signup.html" style="text-decoration:none; color:white">Signup</a>
-                </form>
-            </p4>
+          </nav>
         </div>
+      </header>
+
+      <div class="about.container"; style="display: inline-flex; position:relative; height:400px; width:400px; top:150px; justify:right">
+      An evolution in medical diagnosis. In 2018, researchers & scientists discovered the relation between diseases and the retina
+      <img style="position:relative; height:400px; width:auto; left:300px" src="EyeScan1.jpg">
+      </div>
+
+
+
+
+
     </body>
+
+    <footer>Welcome to EyeScan, you can choose to perform a quick anonymous scan, the results will not be saved and only you will be able to see them. If you choose to login into the MyHealth page, you can perform a scan that will be saved into your profile
+    </footer>
   </html>
